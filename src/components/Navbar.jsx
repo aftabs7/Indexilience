@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav className="nav container">
         <a className="brand" href="#home" onClick={() => setOpen(false)}>
           <span className="brand-mark"><Code2 size={22}/></span>
-          <span>SYNTAX<span className="brand-accent">CORE</span><small>CODE. LEARN. GROW.</small></span>
+          <span>INDEXI<span className="brand-accent">LIENCE</span><small>CODE. LEARN. GROW.</small></span>
         </a>
         <button className="menu-toggle" aria-label="Toggle menu" onClick={() => setOpen(!open)}>
           {open ? <X /> : <Menu />}

@@ -20,8 +20,8 @@ const benefits = [
   ['04', 'Beyond the classroom', 'Explore internships, project guidance and startup-oriented thinking.']
 ]
 const team = [
-  { initials: 'PK', name: 'Prajwal Khedekar', role: 'Founder & Mentor' },
-  { initials: 'SC', name: 'SyntaxCore Team', role: 'Technical Mentors' },
+  { initials: 'AS', name: 'ANIS S', role: 'Founder & Mentor' },
+  { initials: 'IT', name: 'INDEXILIENCE Team', role: 'Technical Mentors' },
   { initials: 'CM', name: 'Career Mentors', role: 'Placement Support' }
 ]
 
@@ -65,7 +65,7 @@ function App() {
             <p className="hero-lead">Practical IT training, real-world projects and personal mentorship to help you become industry-ready.</p>
             <div className="hero-actions">
               <a className="btn btn-primary" href="#courses">Explore courses <ArrowUpRight size={18}/></a>
-              <a className="btn btn-ghost" href="#about">Discover SyntaxCore <ArrowRight size={17}/></a>
+              <a className="btn btn-ghost" href="#about">Discover INDEXILIENCE <ArrowRight size={17}/></a>
             </div>
             <div className="hero-proof">
               <div className="proof-avatars"><span>SC</span><span>IT</span><span>+</span></div>
@@ -109,11 +109,11 @@ function App() {
           <div className="about-art">
             <div className="about-card-main"><div className="abstract-mark"><span></span><span></span><span></span></div><p>THINK. CREATE. INNOVATE.</p><strong>From learning<br/>to doing.</strong></div>
             <div className="about-note"><Sparkles size={18}/><span>Skills for the<br/><b>real world.</b></span></div>
-            <div className="about-caption">THE SYNTAXCORE APPROACH <span>↗</span></div>
+            <div className="about-caption">THE INDEXILIENCE APPROACH <span>↗</span></div>
           </div>
           <div className="about-copy">
             <SectionHeading eyebrow="WHO WE ARE" title={<>Make your next move<br/><span className="text-accent">a confident one.</span></>} />
-            <p>At <b>SYNTAXCORE</b>, we believe the best way to learn is by building. Our programs bridge the gap between theory and practical implementation, helping you gain skills that are directly applicable in the workplace.</p>
+            <p>At <b>INDEXILIENCE</b>, we believe the best way to learn is by building. Our programs bridge the gap between theory and practical implementation, helping you gain skills that are directly applicable in the workplace.</p>
             <p>Whether you are starting your IT journey or looking to strengthen your skills, we provide industry-relevant training and personalized guidance to help you move forward.</p>
             <ul className="check-list">{['Concept-focused training with hands-on implementation', 'Learn from mentors with real-world experience', 'One-on-one mentorship and progress tracking', 'Interview preparation and placement assistance'].map(x => <li key={x}><CheckCircle2 size={18}/>{x}</li>)}</ul>
             <a href="#contact" className="text-link">Get to know us <ArrowUpRight size={17}/></a>
@@ -123,7 +123,7 @@ function App() {
 
       <section className="section feature-section">
         <div className="container">
-          <SectionHeading eyebrow="WHY SYNTAXCORE" title={<>A better way to <span className="text-accent">learn and grow.</span></>} description="More than lessons. A learning experience designed around the skills, confidence and direction you need." />
+          <SectionHeading eyebrow="WHY INDEXILIENCE" title={<>A better way to <span className="text-accent">learn and grow.</span></>} description="More than lessons. A learning experience designed around the skills, confidence and direction you need." />
           <div className="benefit-grid">{benefits.map(([n, title, desc], i) => <article className="benefit-card" key={n}><div className="benefit-top"><span>{n}</span>{[<BookOpen/>,<Users/>,<BriefcaseBusiness/>,<Sparkles/>][i]}</div><h3>{title}</h3><p>{desc}</p><a href="#contact" aria-label={`Enquire about ${title}`}><ArrowUpRight size={19}/></a></article>)}</div>
         </div>
       </section>
@@ -150,17 +150,17 @@ function App() {
       </section>
 
       <section className="quote-section">
-        <div className="container quote-inner"><div className="quote-symbol">“</div><div><span className="eyebrow">THE SYNTAXCORE MINDSET</span><h2>Don't just learn the code.<br/><span>Learn to create with it.</span></h2><p>Every expert starts as a beginner. Keep learning, keep building, and keep moving.</p></div><div className="quote-side"><div><Star/><Star/><Star/><Star/><Star/></div><b>Learn. Build. Succeed.</b><small>Your journey starts with one step.</small></div></div>
+        <div className="container quote-inner"><div className="quote-symbol">“</div><div><span className="eyebrow">THE INDEXILIENCE MINDSET</span><h2>Don't just learn the code.<br/><span>Learn to create with it.</span></h2><p>Every expert starts as a beginner. Keep learning, keep building, and keep moving.</p></div><div className="quote-side"><div><Star/><Star/><Star/><Star/><Star/></div><b>Learn. Build. Succeed.</b><small>Your journey starts with one step.</small></div></div>
       </section>
 
       <section className="section contact-section" id="contact">
         <div className="container contact-layout">
           <div className="contact-info"><SectionHeading eyebrow="LET'S CONNECT" title={<>Your next step<br/><span className="text-accent">starts here.</span></>} description="Have a question about a course, internship or career path? Send us an enquiry. We'd be happy to help."/>
             <div className="contact-methods">
-              <a href="tel:+918999501118"><span><Phone size={19}/></span><div><small>CALL US</small><b>+91 89995 01118</b></div></a>
-              <a href="mailto:info@syntaxcore.in"><span><Mail size={19}/></span><div><small>EMAIL US</small><b>info@syntaxcore.in</b></div></a>
+              <a href="tel:+91987654321"><span><Phone size={19}/></span><div><small>CALL US</small><b>+91 98765 43210</b></div></a>
+              <a href="mailto:info@indexilience.in"><span><Mail size={19}/></span><div><small>EMAIL US</small><b>info@indexilience.in</b></div></a>
               <div><span><Clock3 size={19}/></span><div><small>WORKING HOURS</small><b>Mon–Fri: 10:00 AM – 7:00 PM</b></div></div>
-              <div><span><MapPin size={19}/></span><div><small>VISIT US</small><b>Hadapsar, Pune, Maharashtra 411028</b></div></div>
+              <div><span><MapPin size={19}/></span><div><small>VISIT US</small><b>Pune, Maharashtra 411044</b></div></div>
             </div>
           </div>
           <form className="enquiry-form" onSubmit={submit}>
@@ -182,12 +182,12 @@ function App() {
       </section>
     </main>
     <footer className="footer">
-      <div className="container footer-main"><div className="footer-brand"><a className="brand" href="#home"><span className="brand-mark"><Code2 size={22}/></span><span>SYNTAX<span className="brand-accent">CORE</span><small>CODE. LEARN. GROW.</small></span></a><p>Become a confident professional with practical learning, real-world projects and personal mentorship.</p><div className="socials"><a href="https://www.linkedin.com/company/syntaxcore" aria-label="LinkedIn"><Linkedin/></a><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram/></a><a href="https://github.com/" aria-label="GitHub"><Github/></a></div></div>
+      <div className="container footer-main"><div className="footer-brand"><a className="brand" href="#home"><span className="brand-mark"><Code2 size={22}/></span><span>INDEXI<span className="brand-accent">LIENCE</span><small>CODE. LEARN. GROW.</small></span></a><p>Become a confident professional with practical learning, real-world projects and personal mentorship.</p><div className="socials"><a href="https://www.linkedin.com/company/indexilience" aria-label="LinkedIn"><Linkedin/></a><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram/></a><a href="https://github.com/" aria-label="GitHub"><Github/></a></div></div>
         <div className="footer-col"><h4>Explore</h4><a href="#about">About us</a><a href="#courses">Courses</a><a href="#internships">Internships</a><a href="#team">Our team</a></div>
         <div className="footer-col"><h4>Popular courses</h4><a href="#courses">Core Java</a><a href="#courses">Full Stack Development</a><a href="#courses">Python Programming</a><a href="#courses">Software Testing</a></div>
-        <div className="footer-col"><h4>Get in touch</h4><a href="tel:+918999501118">+91 89995 01118</a><a href="mailto:info@syntaxcore.in">info@syntaxcore.in</a><span>Hadapsar, Pune, Maharashtra</span><a href="#contact" className="footer-enquire">Send an enquiry <ArrowUpRight size={15}/></a></div>
+        <div className="footer-col"><h4>Get in touch</h4><a href="tel:+919876543210">+91 98765 433210</a><a href="mailto:info@indexilience.in">info@xyz.in</a><span>Pune, Maharashtra</span><a href="#contact" className="footer-enquire">Send an enquiry <ArrowUpRight size={15}/></a></div>
       </div>
-      <div className="container footer-bottom"><span>© {new Date().getFullYear()} SYNTAXCORE. All rights reserved.</span><span>Built for curious minds and future builders.</span><a href="#home">Back to top ↑</a></div>
+      <div className="container footer-bottom"><span>© {new Date().getFullYear()} INDEXILIENCE. All rights reserved.</span><span>Built for curious minds and future builders.</span><a href="#home">Back to top ↑</a></div>
     </footer>
   </>
 }
