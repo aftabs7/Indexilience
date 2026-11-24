@@ -12,7 +12,10 @@ export default function Navbar() {
     <header className="site-header">
       <nav className="nav container">
         <a className="brand" href="#home" onClick={() => setOpen(false)}>
-          <span className="brand-mark"><Code2 size={22}/></span>
+          {/* <span className="brand-mark"><Code2 size={22}/></span> */}
+          <span className="brand-mark">
+            <img src="src\logo.png" alt="Brand Logo" />
+          </span>
           <span>INDEXI<span className="brand-accent">LIENCE</span><small>ENTERPRISES...</small></span>
         </a>
         <button className="menu-toggle" aria-label="Toggle menu" onClick={() => setOpen(!open)}>
