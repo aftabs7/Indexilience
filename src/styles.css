@@ -1,3 +1,10 @@
+@font-face {
+   font-family: 'Manbow Clear';
+   src: url('fonts/manbow.clear-regular.otf') format('opentype');
+   font-weight: normal;
+   font-style: normal;
+ }
+
  :root {
      font-family: 'DM Sans', sans-serif;
      color: #172b3b;
@@ -95,6 +102,10 @@
   object-fit: contain; /* Keeps the image aspect ratio intact */
 }
  
+.manbow {
+    font-family: 'Manbow Clear';
+}
+
  .brand-accent {
      color: #169bcf
  }

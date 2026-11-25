@@ -14,9 +14,9 @@ export default function Navbar() {
         <a className="brand" href="#home" onClick={() => setOpen(false)}>
           {/* <span className="brand-mark"><Code2 size={22}/></span> */}
           <span className="brand-mark">
-            <img src="/logo.png" alt="Logo" />
+            <img src="/logo3.png" alt="Logo" />
           </span>
-          <span>INDEXI<span className="brand-accent">LIENCE</span><small>ENTERPRISES...</small></span>
+          <span className="manbow">INDEXI<span className="brand-accent">LIENCE</span><small>Development & Solutions Partner</small></span>
         </a>
         <button className="menu-toggle" aria-label="Toggle menu" onClick={() => setOpen(!open)}>
           {open ? <X /> : <Menu />}

@@ -182,7 +182,9 @@ function App() {
       </section>
     </main>
     <footer className="footer">
-      <div className="container footer-main"><div className="footer-brand"><a className="brand" href="#home"><span className="brand-mark"><Code2 size={22}/></span><span>INDEXI<span className="brand-accent">LIENCE</span><small>CODE. LEARN. GROW.</small></span></a><p>Become a confident professional with practical learning, real-world projects and personal mentorship.</p><div className="socials"><a href="https://www.linkedin.com/company/indexilience" aria-label="LinkedIn"><Linkedin/></a><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram/></a><a href="https://github.com/" aria-label="GitHub"><Github/></a></div></div>
+      <div className="container footer-main"><div className="footer-brand"><a className="brand" href="#home"><span className="brand-mark">
+            <img src="/logo4.png" alt="Logo" />
+          </span><span className="manbow" >INDEXI<span className="brand-accent">LIENCE</span><small>Development & Solutions Partner</small></span></a><p>Become a confident professional with practical learning, real-world projects and personal mentorship.</p><div className="socials"><a href="https://www.linkedin.com/company/indexilience" aria-label="LinkedIn"><Linkedin/></a><a href="https://www.instagram.com/" aria-label="Instagram"><Instagram/></a><a href="https://github.com/" aria-label="GitHub"><Github/></a></div></div>
         <div className="footer-col"><h4>Explore</h4><a href="#about">About us</a><a href="#courses">Courses</a><a href="#internships">Internships</a><a href="#team">Our team</a></div>
         <div className="footer-col"><h4>Popular courses</h4><a href="#courses">Core Java</a><a href="#courses">Full Stack Development</a><a href="#courses">Python Programming</a><a href="#courses">Software Testing</a></div>
         <div className="footer-col"><h4>Get in touch</h4><a href="tel:+919876543210">+91 98765 433210</a><a href="mailto:info@indexilience.in">info@xyz.in</a><span>Pune, Maharashtra</span><a href="#contact" className="footer-enquire">Send an enquiry <ArrowUpRight size={15}/></a></div>
