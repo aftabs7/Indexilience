@@ -70,8 +70,8 @@
      display: flex;
      align-items: center;
      gap: 10px;
-     font: 800 18px Manrope, sans-serif;
-     letter-spacing: -.8px;
+     font: 800 30px Manrope, sans-serif;
+     /* letter-spacing: -.8px; */
      color: var(--navy);
      line-height: 1
  }
